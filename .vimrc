@@ -37,7 +37,7 @@ set ignorecase
 set smartcase
 
 set colorcolumn=80
-highlight ColorColumn ctermbg=0 guibg=lightgrey
+hi CursorLine cterm=NONE ctermbg=darkgrey
 
 " Set the command window height to 2 lines, to avoid many cases of having to
 " "press <Enter> to continue"
