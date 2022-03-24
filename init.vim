@@ -1,6 +1,6 @@
 " path to this file: ~/.config/nvim/
 " to check what an option means type
-" :options<Enter>  iiii
+" :options<Enter>
 " :h searchWord
 set tabstop=4 softtabstop=4
 set shiftwidth=4
