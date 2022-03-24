@@ -1,3 +1,4 @@
+" path to this file: ~/.config/nvim/
 " to check what an option means type
 " :options<Enter>  iiii
 " :h searchWord
