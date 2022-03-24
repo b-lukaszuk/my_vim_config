@@ -1,6 +1,6 @@
 # my_vim_config
 
-Moja konfiguracja Vim-a.
+Moja konfiguracja Vim-a i NeoVima
 
 Basic, bez Plugin-ow.
 Aby bylo just in case, bo czesciej uzywam Emacsa (z EVIL modem)
