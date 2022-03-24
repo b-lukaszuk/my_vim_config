@@ -55,5 +55,7 @@ call plug#begin('~/.vim/plugged')
 " https://github.com/nvim-telescope/telescope.nvim
 " Plug 'nvim-lua/plenary.nvim'
 " Plug 'nvim-telescope/telescope.nvim'
+" colorscheme
+" Plug 'gruvbox-community/gruvbox'
 call plug#end()
 " reload .init.vim (:so ./init.vim) and :PlugInstall to install plugins
