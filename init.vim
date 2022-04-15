@@ -59,3 +59,4 @@ call plug#begin('~/.vim/plugged')
 " Plug 'gruvbox-community/gruvbox'
 call plug#end()
 " reload .init.vim (:so ./init.vim) and :PlugInstall to install plugins
+autocmd vimenter * ++nested colorscheme gruvbox
