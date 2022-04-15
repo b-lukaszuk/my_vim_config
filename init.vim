@@ -53,10 +53,12 @@ noremap <leader>; :
 " reload .init.vim (:so ./init.vim) and :PlugInstall to install plugins
 call plug#begin('~/.vim/plugged')
 " https://github.com/nvim-telescope/telescope.nvim
-" Plug 'nvim-lua/plenary.nvim'
-" Plug 'nvim-telescope/telescope.nvim'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
 " colorscheme
-" Plug 'gruvbox-community/gruvbox'
+Plug 'gruvbox-community/gruvbox'
+" https://github.com/preservim/nerdtree
+Plug 'preservim/nerdtree'
 call plug#end()
 " reload .init.vim (:so ./init.vim) and :PlugInstall to install plugins
 
@@ -69,3 +71,6 @@ nnoremap <leader>ff <cmd>lua require('telescope.builtin').find_files()<cr>
 nnoremap <leader>fg <cmd>lua require('telescope.builtin').live_grep()<cr>
 nnoremap <leader>fb <cmd>lua require('telescope.builtin').buffers()<cr>
 nnoremap <leader>fh <cmd>lua require('telescope.builtin').help_tags()<cr>
+
+" nerdtree
+nnoremap <leader>nt :NERDTreeFocus<CR>
