@@ -49,7 +49,8 @@ noremap <leader>wl <C-w>l
 noremap <leader>wq :q<Enter> " window kill
 noremap <leader>ws <C-w>s
 noremap <leader>wv <C-w>v
-noremap <leader>wwq :wq<Enter>
+
+let g:netrw_bufsettings = 'noma nomod nu nobl nowrap ro'
 
 " plugin manager
 " https://github.com/junegunn/vim-plug
