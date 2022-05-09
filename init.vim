@@ -8,7 +8,7 @@ set expandtab
 set smartindent
 set exrc
 set guicursor=
-set relativenumber
+set number relativenumber
 set nohlsearch
 set hidden
 set noerrorbells
@@ -31,26 +31,29 @@ set colorcolumn=80
 set cmdheight=2
 set updatetime=50
 set shortmess+=c
+set splitbelow
+set splitright
 
 " leaderkey
 let mapleader = "\<Space>"
 
 " remaps
-noremap <leader>v <C-w>v
-noremap <leader>s <C-w>s
-noremap <leader>q <C-w>q
-noremap <leader>j <C-w>j
-noremap <leader>k <C-w>k
-noremap <leader>n <C-w>n
-noremap <leader>l <C-w>l
-noremap <leader>w :w<Enter>
-noremap <leader>wq :wq<Enter>
-noremap <leader>q :q<Enter>
 noremap <leader>; :
+noremap <leader>e :E<Enter>
+noremap <leader>bk :bd<Enter> " buffer kill
+noremap <leader>fs :w<Enter> " file save
+noremap <leader>wh <C-w>h
+noremap <leader>wj <C-w>j
+noremap <leader>wk <C-w>k
+noremap <leader>wl <C-w>l
+noremap <leader>wq :q<Enter> " window kill
+noremap <leader>ws <C-w>s
+noremap <leader>wv <C-w>v
+noremap <leader>wwq :wq<Enter>
 
 " plugin manager
 " https://github.com/junegunn/vim-plug
-" reload .init.vim (:so ./init.vim) and :PlugInstall to install plugins
+" reload .init.vim (:so %) and :PlugInstall to install plugins
 call plug#begin('~/.vim/plugged')
 " https://github.com/nvim-telescope/telescope.nvim
 Plug 'nvim-lua/plenary.nvim'
@@ -60,7 +63,7 @@ Plug 'gruvbox-community/gruvbox'
 " https://github.com/preservim/nerdtree
 Plug 'preservim/nerdtree'
 call plug#end()
-" reload .init.vim (:so ./init.vim) and :PlugInstall to install plugins
+" reload .init.vim (:so %) and :PlugInstall to install plugins
 
 " colorscheme
 autocmd vimenter * ++nested colorscheme gruvbox
