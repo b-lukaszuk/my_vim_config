@@ -64,6 +64,8 @@ Plug 'nvim-telescope/telescope.nvim'
 Plug 'gruvbox-community/gruvbox'
 " https://github.com/preservim/nerdtree
 Plug 'preservim/nerdtree'
+" https://github.com/neovim/nvim-lspconfig
+Plug 'neovim/nvim-lspconfig'
 call plug#end()
 " reload .init.vim (:so %) and :PlugInstall to install plugins
 
