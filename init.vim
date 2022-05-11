@@ -50,6 +50,7 @@ noremap <leader>wq :q<Enter> " window kill
 noremap <leader>ws <C-w>s
 noremap <leader>wv <C-w>v
 
+" displays relative line numbers in netrw
 let g:netrw_bufsettings = 'noma nomod nu nobl nowrap ro'
 
 " plugin manager
@@ -69,12 +70,8 @@ call plug#end()
 " colorscheme
 autocmd vimenter * ++nested colorscheme gruvbox
 
-" telescope
-" Using Lua functions
-nnoremap <leader>ff <cmd>lua require('telescope.builtin').find_files()<cr>
-nnoremap <leader>fg <cmd>lua require('telescope.builtin').live_grep()<cr>
-nnoremap <leader>fb <cmd>lua require('telescope.builtin').buffers()<cr>
-nnoremap <leader>fh <cmd>lua require('telescope.builtin').help_tags()<cr>
+" require setup for plugins from ./lua/b_lukaszuk
+lua require("b_lukaszuk")
 
 " nerdtree
 nnoremap <leader>nt :NERDTreeFocus<CR>
