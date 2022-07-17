@@ -23,6 +23,10 @@ Plug 'gruvbox-community/gruvbox'
 Plug 'preservim/nerdtree'
 " https://github.com/neovim/nvim-lspconfig
 Plug 'neovim/nvim-lspconfig'
+" https://github.com/jiangmiao/auto-pairs
+Plug 'jiangmiao/auto-pairs'
+" https://github.com/tpope/vim-surround
+Plug 'tpope/vim-surround'
 " https://github.com/neoclide/coc.nvim
 " Use release branch (recommend)
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
