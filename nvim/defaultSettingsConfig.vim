@@ -1,0 +1,33 @@
+set encoding=utf-8
+set tabstop=4 softtabstop=4
+set shiftwidth=4
+set expandtab
+set smartindent
+set exrc
+set guicursor=
+set number relativenumber
+set nohlsearch
+set hidden
+set noerrorbells
+set nu
+set nowrap
+set ignorecase
+set smartcase
+set noswapfile
+set nobackup
+set nowritebackup
+set undodir=~/.vim/undodir
+set undofile
+set incsearch
+set termguicolors
+set scrolloff=8
+set noshowmode
+set completeopt=menuone,noinsert,noselect
+set signcolumn=yes
+set showmatch
+set colorcolumn=80
+set cmdheight=2
+set updatetime=100
+set shortmess+=c
+set splitbelow
+set splitright
