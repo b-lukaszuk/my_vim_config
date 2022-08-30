@@ -29,5 +29,6 @@ set colorcolumn=80
 set cmdheight=2
 set updatetime=100
 set shortmess+=c
+set shortmess-=F
 set splitbelow
 set splitright
