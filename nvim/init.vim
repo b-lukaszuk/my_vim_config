@@ -30,7 +30,7 @@ Plug 'tpope/vim-surround'
 " https://github.com/neoclide/coc.nvim
 " Use release branch (recommend)
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-let g:coc_global_extensions = ['coc-css', 'coc-json', 'coc-emmet', 'coc-eslint', 'coc-metals' , 'coc-prettier', 'coc-tsserver']
+let g:coc_global_extensions = ['coc-css', 'coc-json', 'coc-emmet', 'coc-eslint', 'coc-metals' , 'coc-prettier', 'coc-pyright', 'coc-tsserver']
 Plug 'scalameta/nvim-metals'
 call plug#end()
 " reload .init.vim (:so %) and :PlugInstall to install plugins
