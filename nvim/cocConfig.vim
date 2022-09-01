@@ -142,3 +142,8 @@ nnoremap <silent><nowait> <space>j  :<C-u>CocNext<CR>
 nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list.
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
+
+" for scala and nvim-metals, execution takes a few seconds to complete
+" make sure to place .scalafmt.conf file in the same folder where
+" the formatted file is
+noremap <F5> :!scalafmt<CR><CR>
