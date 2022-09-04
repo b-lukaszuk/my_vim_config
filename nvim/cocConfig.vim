@@ -147,3 +147,5 @@ nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 " make sure to place .scalafmt.conf file in the same folder where
 " the formatted file is
 noremap <F5> :!scalafmt<CR><CR>
+
+autocmd BufWritePre *.py silent! 'black'

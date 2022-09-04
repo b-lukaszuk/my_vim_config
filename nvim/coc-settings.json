@@ -5,11 +5,14 @@
     "javascript",
     "javascriptreact",
     "json",
+    "python",
     "typescript",
     "typescriptreact"
   ],
   "prettier.singleQuote": true,
   "prettier.printWidth": 120,
   "eslint.alwaysShowStatus": true,
-  "typescript.updateImportsOnFileMove.enable": true
+  "typescript.updateImportsOnFileMove.enable": true,
+  "python.formatting.provider": "black",
+  "python.formatting.blackPath": "~/.local/bin/black"
 }
